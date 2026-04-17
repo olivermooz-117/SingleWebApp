@@ -125,5 +125,19 @@ p {
     padding: 5px 12px;
     margin: 5px;
     border-radius: 12px;
+    font-size: 15px;
+    margin-bottom: 10px;
+ }
+
+ .synonym-tag {
+    display: inline-block;
+    background: aquamarine;
+    padding: 30px;
+    margin: 5px;
+    border-radius: 12px;
+    font-size: 18px;
+ }
+ .favourite-btn {
+    background: white;
     
  }
