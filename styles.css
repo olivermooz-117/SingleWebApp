@@ -137,7 +137,40 @@ p {
     border-radius: 12px;
     font-size: 18px;
  }
- .favourite-btn {
+ .favorite-btn {
     background: white;
-    
+    color: blue;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 100%;
+
+ }
+
+ .favorites {
+
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 2px solid blue;
+ }
+
+ .favorites h3 {
+    margin-bottom: 30px;
+    color: blue;
+ }
+
+
+ @media (max-width:780px) {
+    .container {
+        padding: 30px;
+
+    }
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    #searchBtn {
+        width:100%;
+    }
  }
