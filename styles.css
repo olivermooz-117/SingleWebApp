@@ -1,0 +1,129 @@
+*  {
+    margin: 20px;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin-top: auto;
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+h1 {
+
+    color: blue;
+    margin-bottom: 12px;
+    text-align: center;
+
+}
+
+p {
+    
+    text-align: center;
+    color: blue;
+    margin-bottom: 12px;
+
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+
+}
+
+#wordInput {
+    flex: 1;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+#searchBtn {
+
+    padding: 30px;
+    background: white;
+    color: bisque;
+    border-radius: 12px;
+    font-size: 18px;
+}
+
+.loading {
+    text-align: center;
+    padding: 30px;
+    color: aqua;
+    font-weight: bold;
+
+}
+ .error {
+    background: rgb(132, 187, 246);
+    padding: 15px;
+    border-radius: 12px;
+    margin: 30px;
+ }
+
+ .error p {
+    color: aqua;
+    margin: 0;
+ }
+
+ .results {
+    background: blue;
+    paddding: 30px;
+    border-radius: 12px;
+    margin: 30px;
+
+ }
+
+ #wordDisplay {
+    color: blue;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+ }
+
+ #pronunciation {
+    color: rgb(89, 89, 238);
+    font-style: italic;
+    margin-bottom: 30px;
+    text-align: left;
+ }
+
+ .definition-item {
+    background: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 12px;
+
+ }
+
+ .definition-text {
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(8, 85, 3);
+ }
+
+ .example-text {
+    color: blue;
+    font-size: 10px;
+    margin-top: 10px;
+    font-style: italic;
+ }
+
+ .part-of-speech {
+    display: inline-block;
+    background: white;
+    padding: 5px 12px;
+    margin: 5px;
+    border-radius: 12px;
+    
+ }
